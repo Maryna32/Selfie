@@ -12,8 +12,7 @@ navigator.mediaDevices
     alert("Камера активна. Ви можете зробити фото.");
   })
   .catch((error) => {
-    statusMsg.textContent = "Помилка доступу до камери.";
-    console.error("Помилка доступу до камери:", error);
+    alert("Помилка доступу до камери.");
   });
 
 snapBtn.addEventListener("click", () => {
