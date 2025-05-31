@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Селфі</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Застосунок «Селфі»</h1>
+    <video id="videoElement" autoplay playsinline></video>
+    <br />
+    <button id="snapBtn">Зробити фото</button>
+    <button id="saveBtn" disabled>Зберегти фото</button>
+    <button id="resetBtn" disabled>Скинути</button>
+    <br />
+    <canvas id="canvasElement" class="hidden"></canvas>
+    <p id="statusMsg"></p>
+
+    <script src="app.js"></script>
+  </body>
+</html>
